@@ -1,0 +1,33 @@
+{
+  "name": "pi-chinese-branch-summary",
+  "version": "0.1.0",
+  "description": "Chinese branch summarization extension for Pi Coding Agent tree navigation",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "chinese",
+    "localization",
+    "branch-summary",
+    "tree-navigation"
+  ],
+  "author": "CNCSMonster",
+  "license": "MIT",
+  "type": "module",
+  "main": "extensions/chinese-branch-summary.ts",
+  "scripts": {
+    "test": "node --test --experimental-strip-types tests/*.test.ts"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/chinese-branch-summary.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CNCSMonster/pi-chinese-branch-summary.git"
+  }
+}
