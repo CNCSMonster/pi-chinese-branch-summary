@@ -1,14 +1,16 @@
 {
   "name": "pi-chinese-branch-summary",
-  "version": "0.1.0",
-  "description": "Chinese branch summarization extension for Pi Coding Agent tree navigation",
+  "version": "0.2.0",
+  "description": "Chinese summarization extensions for Pi Coding Agent: branch (tree) summaries and context compaction",
   "keywords": [
     "pi-package",
     "pi-extension",
     "chinese",
     "localization",
     "branch-summary",
-    "tree-navigation"
+    "tree-navigation",
+    "compaction",
+    "session_before_compact"
   ],
   "author": "CNCSMonster",
   "license": "MIT",
@@ -19,7 +21,8 @@
   },
   "pi": {
     "extensions": [
-      "./extensions/chinese-branch-summary.ts"
+      "./extensions/chinese-branch-summary.ts",
+      "./extensions/chinese-compaction.ts"
     ]
   },
   "peerDependencies": {
